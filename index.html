@@ -1,55 +1,317 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8" />
-    <title>About | Your name</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 
-  <body>
-    <header id="masthead">
-      <div class="container">
-        <a href="index.html" id="logo">Keiran Hamilton</a>
-        <nav>
-          <a href="index.html">About</a> <a href="portfolio.html">Portfolio</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-      </div>
-    </header>
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Portfolio</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
 
-    <div id="main-container" class="container">
-      <section class="main-section">
-        <h1>About Me</h1>
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-        <img
-          src="C:\Users\keiran\responsive-portfolio\Images\bio pic_opt.jpg"
-          class="auth-image"
-          alt="Your Name"
-        />
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
 
-        <p>
-          My name is Keiran Hamilton and I am originally from Jacksonville, NC.
-          I was a military brat so I have lived in quite a few places growing
-          up. My adult years have been spent in Raleigh which I now gladly call
-          my home.
-        </p>
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
 
-        <p>
-          I am a full stack web developer out of the UNC bootcamp. I am both
-          driven and self motivated.
-        </p>
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
 
-        <p>
-          I enjoy coding and the limitless possibilities it presents. You can
-          basically construct anything that your mind can conjure up. Im looking
-          forward to starting my career in web development. It is a hobby of
-          mine that I enjoy doing everyday. I love learning new technologies,
-          languages and techniques.
-        </p>
-      </section>
-    </div>
+</head>
 
-    <footer><div class="container"></div></footer>
-  </body>
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
+			<h3> </h3>
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="navi">
+		         <a href="index.html"><p></p></a>
+		      </div>		      
+
+		   	<nav id="main-nav-wrap">
+				
+					<ul class="main-navigation">
+						<br><br>
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
+						<li><a class="smoothscroll"  href="#services" title="">Services</a></li>					
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
+						<li><a href="styles.html" title="">Style Demo</a></li>				
+					</ul>
+	
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>Hello, World.</h5>
+	   			<h1>I'm Keiran Hamilton.</h1>
+
+	   			<p class="intro-position">
+	   				<span>Full Stack Web Developer</span>
+	   				<span></span> 
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">        
+         <li><a href="#"><i class="fa fa-github"></i></a></li>
+         <li><a href="#"><i class="fa fa-slack"></i></a></li>
+         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+         <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+      </ul> <!-- /intro-social -->      	
+
+   </section> <!-- /intro -->
+
+	
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>About</h5>
+   			<h1>Let me introduce myself.</h1>
+
+   			<div class="intro-info">
+
+   				<img src="images/profile-pic.jpg" width="200" height="40"  alt="Profile Picture">
+
+   				<p class="lead"> I am a full stack web developer out of the UNC bootcamp. I am both
+						driven and self motivated.
+						I enjoy coding and the limitless possibilities it presents. You can
+						basically construct anything that your mind can conjure up. Im looking
+						forward to starting my career in web development. It is a hobby of
+						mine that I enjoy doing everyday. I have a passion for learning new technologies,
+						languages and techniques.</p>
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<div class = "profile">
+   			
+					<h3>Profile</h3>
+   			<ul class="info-list">
+   				<li>
+   					<strong>Fullname:</strong>
+   					<p class="lead">Keiran Hamilton</p>
+   				</li>
+   			
+   				<li>
+   					<strong>Job:</strong>
+   					<p class="lead">Freelancer, Full Stack Web Developer</p>
+   				</li>
+   				<li>
+   					<strong>email:</strong>
+   					<p class="lead">keiranhamilton@gmail.com</p>
+   				</li>
+   				<li>
+   					<strong>Contact number: </strong>
+   					<p class="lead">919-395-7648</p>
+   				</li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div></div>
+
+   		<div class="col-six tab-full"><div class= "skills">
+
+   			<h3>Skills</h3>
+				 <ul class="list-group" >
+					<a href="#!" li class="list-group-item list-group-item-action list-group-item-dark">HTML5</li>
+					<a class="list-group-item list group item dark">CSS3</li>
+					<a class="list-group-item list group item dark">JAVASCRIPT</li>
+					<a class="list-group-item list group item dark">JQUERY</li>
+					<a class="list-group-item list group item dark">BOOTSTRAP</li>
+						<a class="list-group-item list group item dark">MYSQL</li>
+							<a class="list-group-item list group item dark">MONGO DB</li>
+							<a class="list-group-item list group item dark">NODE JS</li>
+							<a class="list-group-item list group item dark">SEQUELIZE</li>
+					</ul>
+
+			</a>
+   	</div>
+
+   	</div>
+   </section> <!-- /process-->    
+
+
+   <!-- resume Section
+   ================================================== -->
+	
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Portfolio</h5>
+   			<h1>Check Out Some of My Work.</h1>
+
+   			<p class="lead"></p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row portfolio-content">
+
+   		<div class="col-twelve">
+
+   			<!-- portfolio-wrapper -->
+	          <!-- /section-intro -->
+
+   	
+</div></div>
+	<!-- 
+  
+
+	
+ contact email me
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>I'd Love To Hear From You.</h1>
+
+   			<p class="lead"></p>
+
+   		</div> 
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-form">
+
+   		<div class="col-twelve">
+
+            <!-- form -->
+            <form name="contactForm" id="contactForm" method="post" action="">
+      			<fieldset>
+
+                  <div class="form-field">
+ 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+                  </div>
+                  <div class="form-field">
+	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+	               </div>
+                  <div class="form-field">
+	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	               </div>                       
+                  <div class="form-field">
+	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	               </div>                      
+                 <div class="form-field">
+                     <button class="submitform">Submit</button>
+                     <div id="submit-loader">
+                        <div class="text-loader">Sending...</div>                             
+       				      <div class="s-loader">
+								  	<div class="bounce1"></div>
+								  	<div class="bounce2"></div>
+								  	<div class="bounce3"></div>
+								</div>
+							</div>
+                  </div>
+
+      			</fieldset>
+      		</form> <!-- Form End -->
+
+            <!-- contact-warning -->
+            <div id="message-warning">            	
+            </div>            
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      		</div>
+
+         </div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /contact-form -->
+
+   	<div class="row contact-info">
+		
+		<div class="col-twelve tab-full">
+
+		
+
+			<blockquote cite="http://where-i-got-my-info-from.com">
+				<p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+				to do what you believe is great work. And the only way to do great work is to love what you do.
+				If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+				</p>
+	
+				<cite>
+					<a href="#">Steve Jobs</a>
+				</cite>
+			</blockquote>
+
+		</div></div>
+</section>
+
+   <!-- footer
+	================================================== -->
+	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
+
+      	</div> <!-- /row -->     	
+
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+
 </html>
